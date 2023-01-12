@@ -1,0 +1,403 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* home page styling  */
+.home-page {
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(var(--mian-gradiant));
+  opacity: 100%;
+  position: relative;
+}
+.home-page video {
+  position: absolute;
+  height: 100%;
+  scale: 1.3;
+  z-index: -1;
+}
+/* nav bar */
+nav {
+  margin-top: 40px;
+}
+nav ul {
+  width: 650px;
+  justify-content: space-between;
+}
+nav ul li {
+  white-space: nowrap;
+}
+nav .contact {
+  background-color: var(--main-blue);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* content */
+.home-page section {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-30%);
+}
+.home-page section h3 {
+  font-size: 32px;
+  font-weight: normal;
+}
+.home-page section p {
+  line-height: 30px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.home-page section div button {
+  width: 125px;
+  height: 40px;
+  background-color: var(--main-blue);
+  border-radius: 4px;
+  font-size: 14px;
+}
+.home-page section div img {
+  cursor: pointer;
+}
+/* About-page */
+.about-page {
+  height: 100vh;
+  background-image: url(../images/Mask\ Group\ 11.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.about-page section {
+  width: calc(100% - 160px);
+  justify-content: space-evenly;
+  position: absolute;
+  top: 200px;
+}
+.about-page section div p:first-of-type {
+  font-size: 32px;
+}
+.about-page section div p:nth-of-type(2) {
+  text-transform: uppercase;
+  font-size: 64px;
+}
+.about-page section div p:nth-of-type(3) {
+  width: 603px;
+  height: 178px;
+  line-height: 25px;
+  overflow: hidden;
+  color: #03192bb7;
+}
+.about-page section div input {
+  width: 130px;
+  height: 34px;
+  background-color: var(--main-blue);
+  border-radius: 4px;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+}
+/* our services */
+.services {
+  min-height: 100vh;
+  background-image: url(../images/Mask\ Group\ 12.svg),
+    linear-gradient(var(--mian-gradiant));
+  opacity: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 10%;
+  padding-top: 104px;
+  padding-bottom: 100px;
+}
+.services header {
+  margin-bottom: 60px;
+}
+.services header p:first-of-type {
+  font-size: 32px;
+}
+.services header p:nth-of-type(2) {
+  font-size: 64px;
+}
+.services header p:nth-of-type(3) {
+  width: 603px;
+  height: 100px;
+  overflow: hidden;
+  font-weight: 200;
+}
+
+/* servises - grid  */
+.grid-container {
+  display: grid;
+  grid-template: repeat(3, 250px) / repeat(3, minmax(350px, 1fr));
+  gap: 80px;
+}
+.services .grid-container .card > img:first-of-type {
+  width: 60px;
+  height: 52px;
+}
+.services .grid-container .card .title {
+  font-size: 24px;
+}
+.services .grid-container .card p:nth-of-type(2) {
+  overflow: hidden;
+  height: 100px;
+}
+.services .grid-container .card div p {
+  font-size: 17px;
+  color: var(--main-blue);
+}
+.services .grid-container .card div img {
+  width: 26px;
+  height: 23px;
+}
+
+/* our work  */
+.our-work {
+  padding-top: 65px;
+  height: 100vh;
+}
+.our-work > div > p:first-of-type {
+  font-size: 64px;
+}
+.our-work > div p:nth-of-type(2) {
+  text-align: center;
+  color: #03192bb8;
+  height: 100px;
+  overflow: hidden;
+  margin-bottom: 90px;
+}
+/* cards */
+.our-work .card-container {
+  justify-content: space-between;
+}
+.our-work .card-container .card {
+  background-color: #e0e7ee;
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 625px;
+  padding: 20px;
+  position: relative;
+}
+.our-work .card-container .card.blue {
+  background-image: url(../images/j0jfyYU7-Abigail-Ahern.png),
+    linear-gradient(var(--mian-gradiant));
+}
+.our-work .card-container .card:nth-child(2) {
+  background-image: url(../images/71UrRzvm-CRUK-1.png);
+}
+.our-work .card-container .card:nth-child(3) {
+  background-image: url(../images/Rutland-Laptop-1.png);
+}
+.our-work .card-container .card:nth-child(2) p:nth-of-type(2),
+.our-work .card-container .card:nth-child(3) p:nth-of-type(2) {
+  color: #2d2d2db8;
+}
+
+.our-work .card-container .card > p:first-of-type {
+  font-size: 32px;
+  margin-top: 250px;
+}
+.our-work .card-container .card > p:nth-of-type(2) {
+  width: 275px;
+  height: 100px;
+  overflow: hidden;
+  color: #d1d1d1;
+  text-align: start;
+  font-weight: 300;
+}
+.our-work .card-container .card > div {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+.our-work .card-container .card > div p {
+  color: var(--main-blue);
+  font-size: 17px;
+}
+
+/* our team  */
+.our-team {
+  position: relative;
+  background-image: url(../images/Mask\ Group\ 12.svg),
+    linear-gradient(var(--mian-gradiant));
+  background-repeat: no-repeat;
+  background-position: 0 20%;
+  background-size: contain;
+  top: -110px;
+  padding-top: 20%;
+  padding-bottom: 100px;
+  z-index: -1;
+}
+
+.our-team > div > p:first-of-type {
+  font-size: 39px;
+}
+.our-team > div > p:nth-of-type(2) {
+  font-size: 72px;
+  text-transform: uppercase;
+}
+
+.team-members-grid {
+  display: grid;
+  grid-template: repeat(3, 250px) / repeat(3, minmax(350px, 1fr));
+  gap: 80px;
+  align-items: center;
+}
+.team-members-grid .person .about {
+  height: 70px;
+  overflow: hidden;
+  color: #a4a4a4;
+  text-align: center;
+}
+
+/* our parteners */
+.our-parteners > div > p:first-of-type {
+  font-size: 39px;
+}
+.our-parteners > div > h3 {
+  font-size: 78px;
+  font-weight: 400;
+}
+.our-parteners > div > p:last-child {
+  color: #03192bb7;
+  width: 635px;
+  height: 100px;
+}
+.our-parteners .grid-container {
+  display: grid;
+  grid-template: repeat(2, 250px) / repeat(4, minmax(200px, 1fr));
+  gap: 80px;
+  margin-top: 100px;
+}
+
+/* contact  */
+
+.contact-page {
+  background-image: linear-gradient(var(--mian-gradiant));
+  padding: 100px 0;
+}
+.contact-page .container {
+  background-color: #001629;
+  box-shadow: 8px 16px 32px 0 #0000001a;
+  padding: 15px;
+  gap: 50px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+.contact-page .container > div {
+  padding-left: 50px;
+}
+.contact-page .container > div:first-child h4 {
+  font-size: 33px;
+  font-weight: 500;
+  letter-spacing: 0.13px;
+}
+.contact-page .container > div:first-child h4 + div {
+  gap: 25px;
+  margin-bottom: 60px;
+}
+.contact-page .container .input input {
+  background-color: #4d4d4d;
+  width: 155px;
+  height: 50px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  padding: 15px;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+.contact-page .container .input input::placeholder,
+.contact-page .container .input + textarea::placeholder {
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+.contact-page .container .input + textarea {
+  background-color: #4d4d4d;
+  width: 330px;
+  height: 100px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  padding: 5px 15px;
+  padding: 15px;
+  resize: none;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+.contact-page .container button {
+  background-color: var(--main-blue);
+  width: 330px;
+  height: 50px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  box-shadow: 0 8px 16px 0 #35bdf63b;
+}
+.contact-page .map {
+  position: relative;
+}
+.contact-page .button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+/* conclude */
+.conclude {
+  padding: 100px 0;
+  justify-content: space-evenly;
+}
+.conclude > div > p {
+  width: 355px;
+  height: 75;
+  color: #a1a1a1;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+.conclude table {
+  border-spacing: 40px;
+}
+.conclude table thead td {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.conclude table tbody td {
+  font-size: 18;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+/* footer */
+
+footer {
+  background-image: linear-gradient(var(--mian-gradiant));
+  padding: 25px 0;
+}
+footer div:nth-of-type(2) {
+  gap: 75px;
+}

@@ -1,0 +1,47 @@
+.home-page {
+  background-image: url(../services-page-media/Group\ 132.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 600px;
+  position: relative;
+  border-bottom: 2px solid white;
+}
+
+.home-page > div h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 59px;
+  font-weight: 600;
+}
+.home-page > div p {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #d1d1d1;
+  line-height: 1.5;
+}
+/* how we work  */
+.how-work {
+  padding: 100px 0;
+}
+.how-work > div > h3 {
+  font-size: 51px;
+  font-weight: 600;
+}
+.how-work > div > p {
+  color: #737373;
+  word-break:keep-all;
+  width: 500px;
+}
+.how-work div:nth-of-type(2){
+    position: relative;
+}
+.how-work div:nth-of-type(2) img:last-of-type{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    -webkit-transform: translate(-50% ,-50%);
+    -moz-transform: translate(-50% ,-50%);
+    -ms-transform: translate(-50% ,-50%);
+    -o-transform: translate(-50% ,-50%);
+}

@@ -1,0 +1,199 @@
+.home-page {
+  background-image: url(../About-page-media/images/Group\ 133.png),
+    linear-gradient(var(--mian-gradiant));
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+.home-page nav + div {
+  transform: translateY(150px);
+  -webkit-transform: translateY(150px);
+  -moz-transform: translateY(150px);
+  -ms-transform: translateY(150px);
+  -o-transform: translateY(150px);
+}
+
+.home-page nav + div h3 {
+  font-size: 60px;
+}
+.home-page nav + div p {
+  width: 565px;
+  height: 50px;
+  font-size: 18px;
+  letter-spacing: 0.36;
+  color: #d1d1d1;
+}
+/* our mission */
+.our-mission {
+  justify-content: space-evenly;
+  padding: 100px 0;
+}
+.our-mission p:first-of-type {
+  font-size: 33px;
+}
+.our-mission p:nth-of-type(2) {
+  font-size: 51px;
+}
+.our-mission p:nth-of-type(3) {
+  color: #737373;
+}
+.our-mission .img-container {
+  display: grid;
+  width: 530px;
+  height: 475;
+  grid-template: repeat(2, 200px) / repeat(2, 252px);
+  gap: 25px;
+}
+/* our leaders */
+.leaders {
+  background-image: url(../images/Mask\ Group\ 12.svg),
+    linear-gradient(var(--mian-gradiant));
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 15%;
+  padding: 75px;
+  text-align: center;
+}
+.leaders h1 {
+  font-size: 51px;
+  font-weight: 500;
+}
+.leaders h1 + p {
+  color: #d8d8d8;
+}
+.leaders-container {
+  margin-top: 100px;
+}
+.leaders-container div {
+  font-family: "Raleway", sans-serif;
+}
+.leaders-container div h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.leaders-container div p {
+  color: #d8d8d8;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.leaders-container div div i {
+  color: #d8d8d8;
+}
+.leaders button {
+  background-color: var(--main-blue);
+  width: 140px;
+  height: 40px;
+  margin-top: 85px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 0 8px 16px 0 #35bdf63b;
+}
+
+/* our vision */
+.our-vision {
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  padding: 75px 0 0 0;
+}
+.our-vision div:first-of-type {
+  background-image: url(../images/Mask\ Group\ 12.svg);
+  background-position: 0 10%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  opacity: 0.15;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.our-vision h2 {
+  font-size: 51px;
+}
+.our-vision p {
+  font-weight: 500;
+}
+.our-vision video {
+  width: 1060px;
+  height: 500px;
+  aspect-ratio: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.our-vision img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+/* news letter  */
+.news-letter {
+  justify-content: space-between;
+  padding: 50px;
+  background-image: linear-gradient(var(--mian-gradiant));
+}
+.news-letter h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+}
+.news-letter button {
+  background-color: var(--main-blue);
+  width: 200px;
+  height: 50px;
+  box-shadow: 0 8px 16px 0 #35bdf63b;
+}
+.contact-page {
+  background-image: none;
+}
+/* hiring */
+
+.hiring {
+  background-image: linear-gradient(var(--mian-gradiant));
+  text-align: center;
+  padding: 75px;
+}
+.hiring h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 51px;
+  margin-bottom: 30px;
+}
+.hiring > p {
+  color: #b8b8b8b7;
+  margin-bottom: 80px;
+}
+.hiring .container > div p:first-of-type {
+  font-size: 18px;
+}
+.hiring .container > div > div > p:last-of-type {
+  color: #737373;
+}
+.hiring .container > div button {
+  background-color: var(--main-blue);
+  width: 145px;
+  height: 50px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.hiring .container hr {
+  height: 3px;
+  background-color: white;
+}

@@ -1,0 +1,66 @@
+.home-page{
+    background-image: url(../Our-Work-media/Group\ 133.png);
+}
+/* our mission page */
+.our-mission{
+    background-image: url(../images/Mask\ Group\ 12.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 50%;
+    padding: 100px 0;
+}
+.our-mission > div  p:last-of-type{
+    font-size: 24px;
+}
+/* our work */
+.our-work{
+    height: auto;
+    margin-bottom: 50px;
+}
+.our-work .card-container{
+    display: grid;
+    grid-template: repeat(3 , 530px) / repeat(2 , 550px);
+    gap: 100px 0;
+/*     margin: 0 15%; */
+    justify-content: space-evenly;
+}
+.our-work .card-container .card{
+    width: auto;
+    height: auto;
+    background-image: url(../Our-Work-media/j0jfyYU7-Abigail-Ahern.png)!important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.our-work .card-container .card > p:first-of-type {
+    font-size: 32px;
+    margin-top: 215px;
+
+}
+.our-work .card-container .card > p:nth-of-type(2) {
+    color: #03192BB7;
+}
+.our-work .card-container .card > div {
+    position: initial;
+}
+/* partenrs */
+.our-parteners{
+    background-image: linear-gradient(var(--mian-gradiant));
+    padding:100px 0 ;
+}
+.our-parteners >div p:last-of-type{
+    color: #D1D1D1;
+}
+/* news letter */
+.news-letter{
+    background-image: none;
+}
+.news-letter h3{
+    font-weight: 600;
+}
+/* conclude */
+.contact-page{
+    background-image: linear-gradient(var(--mian-gradiant));
+}
